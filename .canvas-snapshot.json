@@ -1,0 +1,507 @@
+{
+  "quiz": {
+    "id": 12281,
+    "title": "JavaScript and The DOM Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12281",
+    "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12281?force_user=1&persist_headless=1",
+    "description": "<p><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></p>\n<p><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></p>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 10,
+    "points_possible": 10.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_12281"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": null,
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12281/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12281/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12281/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12281/submission_versions",
+    "assignment_id": 89507,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6357,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 2,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": null,
+    "question_types": [
+
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 12281,
+      "id": 144104,
+      "quiz_group_id": null,
+      "assessment_question_id": 166202,
+      "position": null,
+      "question_name": "DOM: DevTools",
+      "question_type": "short_answer_question",
+      "question_text": "<div>\n<div><span>The following code block is a snippet from Ian's portfolio page.</span></div>\n<div><code><span>&lt;</span><span>h1</span> <span>id</span><span>=</span><span>\"firstHeading\"</span> <span>class</span><span>=</span><span>\"firstHeading\"</span> <span>lang</span><span>=</span><span>\"en\"</span><span>&gt;</span><span>Hello!</span><span>&lt;/</span><span>h1</span><span>&gt;</span></code></div>\n<div><code><span>&lt;</span><span>section</span><span>&gt;</span></code></div>\n<div><code><span>&nbsp; &lt;</span><span>h1</span> <span>id</span><span>=</span><span>'name'</span> <span>class</span><span>=</span><span>'name'</span> <span>lang</span><span>=</span><span>'en'</span><span>&gt;</span><span>My name is Ian!</span><span>&lt;/</span><span>h1</span><span>&gt;</span></code></div>\n<div><code><span>&nbsp; &lt;</span><span>h1</span> <span>id</span><span>=</span><span>'welcome'</span> <span>class</span><span>=</span><span>'welcome'</span> <span>lang</span><span>=</span><span>'en'</span><span>&gt;</span><span>Welcome to my portfolio!</span><span>&lt;/</span><span>h1</span><span>&gt;</span></code></div>\n<div><code><span>&nbsp; &lt;</span><span>p</span><span>&gt;</span><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque&nbsp; &nbsp; lacinia pretium feugiat. Praesent tincidunt non odio sed ultricies. Fusce cursus nisi quis est varius imperdiet.</span><span>&lt;/</span><span>p</span><span>&gt;</span></code></div>\n<div><code><span>&lt;/</span><span>section</span><span>&gt;</span></code></div>\n<br>\n<div><span>What element will be returned if I type the following into the console? (Feel free to copy and paste if you need to!</span></div>\n<div>\n<div>\n<div><code><span>document.querySelector('h1')</span></code></div>\n</div>\n</div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/changing-the-dom-with-devtools-and-javascript?module_item_id=143595\" target=\"_blank\">Changing the DOM with DevTools and JavaScript</a></p>",
+      "answers": [
+        {
+          "id": "5411",
+          "text": "<h1 id=\"firstHeading\" class=\"firstHeading\" lang=\"en\">Hello!</h1>",
+          "comments": "",
+          "comments_html": "<p>Nice!</p>\n<p><code>querySelector() </code>returns the <strong>first</strong> element that it finds, so in this case that would be the very first <code>&lt;h1&gt;</code> tag!</p>",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12281,
+      "id": 144105,
+      "quiz_group_id": null,
+      "assessment_question_id": 166203,
+      "position": null,
+      "question_name": "DOM: DevTools",
+      "question_type": "short_answer_question",
+      "question_text": "<div>\n<div><span>Looking at the following code block, what would we need to put into the Chrome console to delete the </span><code><span>&lt;</span><span>h1</span><span>&gt;</span></code><span> element that says \"Hello!\" from the page using it's ID?</span></div>\n<div>\n<div><code><span>&lt;</span><span>h1</span> <span>id</span><span>=</span><span>\"firstHeading\"</span> <span>class</span><span>=</span><span>\"firstHeading\"</span> <span>lang</span><span>=</span><span>\"en\"</span><span>&gt;</span><span>Hello!</span><span>&lt;/</span><span>h1</span><span>&gt;</span></code></div>\n<div><code><span>&lt;</span><span>section</span><span>&gt;</span></code></div>\n<div><code><span>&nbsp; &lt;</span><span>h1</span> <span>id</span><span>=</span><span>'name'</span> <span>class</span><span>=</span><span>'name'</span> <span>lang</span><span>=</span><span>'en'</span><span>&gt;</span><span>My name is Ian!</span><span>&lt;/</span><span>h1</span><span>&gt;</span></code></div>\n<div><code><span>&nbsp; &lt;</span><span>h1</span> <span>id</span><span>=</span><span>'welcome'</span> <span>class</span><span>=</span><span>'welcome'</span> <span>lang</span><span>=</span><span>'en'</span><span>&gt;</span><span>Welcome to my portfolio!</span><span>&lt;/</span><span>h1</span><span>&gt;</span></code></div>\n<div><code><span>&nbsp; &lt;</span><span>p</span><span>&gt;</span><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque&nbsp; &nbsp; lacinia pretium feugiat. Praesent tincidunt non odio sed ultricies. Fusce cursus nisi quis est varius imperdiet.</span><span>&lt;/</span><span>p</span><span>&gt;</span></code></div>\n<div><code><span>&lt;/</span><span>section</span><span>&gt;</span></code></div>\n</div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "<p>Correct!&nbsp;</p>\n<p>Using either <code>querySelector()</code> or <code>getElementById()</code> would grab that element.</p>",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/changing-the-dom-with-devtools-and-javascript?module_item_id=143595\" target=\"_blank\">Changing the DOM with DevTools and JavaScript</a></p>",
+      "answers": [
+        {
+          "id": "7826",
+          "text": "document.querySelector('#hello').remove()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "9529",
+          "text": "document.getElementById('hello').remove()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "6631",
+          "text": "document.getElementById(\"hello\").remove()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "7218",
+          "text": "document.querySelector(\"#hello\").remove()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12281,
+      "id": 144106,
+      "quiz_group_id": null,
+      "assessment_question_id": 166204,
+      "position": null,
+      "question_name": "DOM: DevTools",
+      "question_type": "true_false_question",
+      "question_text": "<p>When using Chrome DevTools, we are updating and changing the source code.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73927?module_item_id=143594\" target=\"_blank\">DOM Editing Lab</a></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "",
+          "text": "True",
+          "weight": 0,
+          "id": 3262
+        },
+        {
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n<p><span>The changes in the DOM do not affect the HTML file on the server.&nbsp;</span></p>",
+          "text": "False",
+          "weight": 100,
+          "id": 1135
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12281,
+      "id": 144107,
+      "quiz_group_id": null,
+      "assessment_question_id": 166201,
+      "position": null,
+      "question_name": "DOM: Nodes",
+      "question_type": "true_false_question",
+      "question_text": "<div>\n<div><span>DOM Nodes are written as HTML.</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73927?module_item_id=143594\" target=\"_blank\">DOM Editing Lab</a></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<p>Correct!&nbsp;</p>\n<p><span>Nodes and elements are not the same thing — all elements in the DOM are nodes but not all nodes are HTML elements. However, when we're working in the DOM, the nodes we access and modify are virtually always HTML elements.</span></p>",
+          "text": "True",
+          "weight": 100,
+          "id": 3673
+        },
+        {
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "text": "False",
+          "weight": 0,
+          "id": 1607
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12281,
+      "id": 144108,
+      "quiz_group_id": null,
+      "assessment_question_id": 166205,
+      "position": null,
+      "question_name": "DOM: Selectors",
+      "question_type": "matching_question",
+      "question_text": "<div>\n<div><span>JavaScript exposes a few ways of finding DOM nodes, either directly or in stages, courtesy of the document object. Order the following in terms of most specific to least specific: most specific: getElementByID(), medium specific: getElementsByClassName(), least specific: getElementsByTagName().</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\" target=\"_blank\">The DOM is a Tree</a></p>",
+      "answers": [
+        {
+          "id": 1281,
+          "text": "Most Specific:",
+          "left": "Most Specific:",
+          "right": "getElementByID()",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 4591
+        },
+        {
+          "id": 1260,
+          "text": "Medium Specific:",
+          "left": "Medium Specific:",
+          "right": "getElementsByClassName()",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 7813
+        },
+        {
+          "id": 3697,
+          "text": "Least Specific",
+          "left": "Least Specific",
+          "right": "getElementsByTagName()",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 6
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": [
+        {
+          "text": "getElementByID()",
+          "match_id": 4591
+        },
+        {
+          "text": "getElementsByClassName()",
+          "match_id": 7813
+        },
+        {
+          "text": "getElementsByTagName()",
+          "match_id": 6
+        }
+      ],
+      "matching_answer_incorrect_matches": ""
+    },
+    {
+      "quiz_id": 12281,
+      "id": 144109,
+      "quiz_group_id": null,
+      "assessment_question_id": 166206,
+      "position": null,
+      "question_name": "DOM: Selectors",
+      "question_type": "short_answer_question",
+      "question_text": "<p><span>Which document method returns the first element that matches the specified selector?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\" target=\"_blank\">The DOM is a Tree</a>&nbsp;,&nbsp;<a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\" target=\"_blank\">Video: DOM Selectors</a>&nbsp;,&nbsp;<a class=\"inline_disabled external\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector\" target=\"_blank\"><span>querySelector</span><span class=\"ui-icon ui-icon-extlink ui-icon-inline\" title=\"Links to an external site.\"><span class=\"screenreader-only\">Links to an external site.</span></span></a></p>",
+      "answers": [
+        {
+          "id": "3853",
+          "text": "querySelector()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "901",
+          "text": "querySelector",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12281,
+      "id": 144110,
+      "quiz_group_id": null,
+      "assessment_question_id": 166207,
+      "position": null,
+      "question_name": "DOM: Selectors",
+      "question_type": "short_answer_question",
+      "question_text": "<p>Which document method returns the element with a specified ID?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\" target=\"_blank\">The DOM is a Tree</a>&nbsp;,&nbsp;<a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\" target=\"_blank\">Video: DOM Selectors</a>&nbsp;,&nbsp;<a class=\"inline_disabled external\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById\" target=\"_blank\"><span>getElementById</span><span class=\"ui-icon ui-icon-extlink ui-icon-inline\" title=\"Links to an external site.\"><span class=\"screenreader-only\">Links to an external site.</span></span></a></p>",
+      "answers": [
+        {
+          "id": "5419",
+          "text": "getElementById()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "6513",
+          "text": "getElementById",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12281,
+      "id": 144111,
+      "quiz_group_id": null,
+      "assessment_question_id": 166208,
+      "position": null,
+      "question_name": "DOM: Selectors",
+      "question_type": "short_answer_question",
+      "question_text": "<p>Which document method returns a static list of the document's elements that match the specified selector?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\" target=\"_blank\">The DOM is a Tree</a>&nbsp;,&nbsp;<a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\" target=\"_blank\">Video: DOM Selectors</a>&nbsp;,&nbsp;<a class=\"inline_disabled external\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll\" target=\"_blank\"><span>querySelectorAll</span><span class=\"ui-icon ui-icon-extlink ui-icon-inline\" title=\"Links to an external site.\"><span class=\"screenreader-only\">Links to an external site.</span></span></a></p>",
+      "answers": [
+        {
+          "id": "9761",
+          "text": "querySelectorAll()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "3949",
+          "text": "querySelectorAll",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12281,
+      "id": 144112,
+      "quiz_group_id": null,
+      "assessment_question_id": 166209,
+      "position": null,
+      "question_name": "DOM: Selectors",
+      "question_type": "short_answer_question",
+      "question_text": "<p>Which document method returns an HTML collection with the specified tag name?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\" target=\"_blank\">The DOM is a Tree</a>&nbsp;,&nbsp;<a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\" target=\"_blank\">Video: DOM Selectors</a>&nbsp;,&nbsp;<a class=\"inline_disabled external\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName\" target=\"_blank\"><span>getElementsByTagName</span><span class=\"ui-icon ui-icon-extlink ui-icon-inline\" title=\"Links to an external site.\"><span class=\"screenreader-only\">Links to an external site.</span></span></a></p>",
+      "answers": [
+        {
+          "id": "2871",
+          "text": "getElementsByTagName()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "9885",
+          "text": "getElementsByTagName",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12281,
+      "id": 144113,
+      "quiz_group_id": null,
+      "assessment_question_id": 166210,
+      "position": null,
+      "question_name": "DOM: Selectors",
+      "question_type": "short_answer_question",
+      "question_text": "<p>Which document method returns an object containing all the elements with the specified class name?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\" target=\"_blank\">The DOM is a Tree</a>&nbsp;,&nbsp;<a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\" target=\"_blank\">Video: DOM Selectors</a>&nbsp;,&nbsp;<a class=\"inline_disabled external\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName\" target=\"_blank\"><span>getElementsByClassName</span><span class=\"ui-icon ui-icon-extlink ui-icon-inline\" title=\"Links to an external site.\"><span class=\"screenreader-only\">Links to an external site.</span></span></a></p>",
+      "answers": [
+        {
+          "id": "2323",
+          "text": "getElementsByClassName()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "3324",
+          "text": "getElementsByClassName",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 ---
 id: 12281
 course_id: 3297
-repo: phase-1-quiz-javascript-and-the-dom-quiz
+repo: phase-1-quiz-javascript-and-the-dom
 ---
 
 # JavaScript and The DOM Quiz

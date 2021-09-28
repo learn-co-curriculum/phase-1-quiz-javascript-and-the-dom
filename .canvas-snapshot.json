@@ -95,10 +95,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/javascript-query-selector-methods\">JavaScript Query Selector Methods</a><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-changing-dom-elements\">Video: Changing DOM Elements</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/javascript-query-selector-methods\">JavaScript Query Selector Methods</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-changing-dom-elements\">Video: Changing DOM Elements</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9183,
+          "id": 9312,
           "text": "Hello!",
           "comments": "",
           "comments_html": "<p>Nice! <code>querySelector()</code>returns the <strong>first</strong> element that matches the given\nCSS selector, so in this case that would be the very first <code>&lt;h1&gt;</code> tag! Calling\n<code>.textContent</code> on that element would return the text from that <code>&lt;h1&gt;</code> tag,\nwhich is <code>\"Hello!\"</code></p>",
@@ -127,17 +127,17 @@
       "neutral_comments": "",
       "correct_comments_html": "<p>Correct!&nbsp;</p>\n<p>Using either <code>querySelector()</code> or <code>getElementById()</code> would grab that element.</p>",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/changing-the-dom-with-devtools-and-javascript?module_item_id=143595\">Changing the DOM with DevTools and JavaScript</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/changing-the-dom-with-devtools-and-javascript?module_item_id=143595\">Changing the DOM with DevTools and JavaScript</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 547,
+          "id": 920,
           "text": "firstHeading.remove();",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 7141,
+          "id": 2966,
           "text": "firstHeading.remove()",
           "comments": "",
           "comments_html": "",
@@ -166,21 +166,21 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/assignments/73927?module_item_id=143594\">DOM Editing Lab</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73927?module_item_id=143594\">DOM Editing Lab</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
           "comments_html": "",
           "text": "True",
           "weight": 0,
-          "id": 6303
+          "id": 1486
         },
         {
           "comments": "",
           "comments_html": "<p>Correct!</p>\n\n<p>The changes in the DOM do not affect the HTML file on the server.</p>",
           "text": "False",
           "weight": 100,
-          "id": 8067
+          "id": 2979
         }
       ],
       "variables": null,
@@ -205,21 +205,21 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree\">The DOM is a Tree</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree\">The DOM is a Tree</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
           "comments_html": "<p>Correct!</p>",
           "text": "True",
           "weight": 100,
-          "id": 3363
+          "id": 6601
         },
         {
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "text": "False",
           "weight": 0,
-          "id": 4041
+          "id": 9320
         }
       ],
       "variables": null,
@@ -237,41 +237,41 @@
       "position": null,
       "question_name": "DOM: Selectors",
       "question_type": "matching_question",
-      "question_text": "<p>JavaScript exposes a few different methods on the <code>document</code> object that let us\nfinding DOM nodes. When using these methods, we can find elements by different\nattributes, such as ID, class, and tag name.</p>\n\n<p>Order the following methods in terms of most specific to least specific\nattribute:</p>",
+      "question_text": "<p>JavaScript exposes a few different methods on the <code>document</code> object that let us\nfind DOM nodes. When using these methods, we can find elements by different\nattributes, such as ID, class, and tag name.</p>\n\n<p>Order the following methods in terms of most specific to least specific\nattribute:</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\">The DOM is a Tree</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\">The DOM is a Tree</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6332,
+          "id": 3135,
           "text": "Most Specific:",
           "left": "Most Specific:",
           "right": "document.getElementByID()",
           "comments": "",
           "comments_html": "",
-          "match_id": 5273
+          "match_id": 2372
         },
         {
-          "id": 2917,
+          "id": 4621,
           "text": "Medium Specific:",
           "left": "Medium Specific:",
           "right": "document.getElementsByClassName()",
           "comments": "",
           "comments_html": "",
-          "match_id": 3746
+          "match_id": 1032
         },
         {
-          "id": 703,
+          "id": 440,
           "text": "Least Specific",
           "left": "Least Specific",
           "right": "document.getElementsByTagName()",
           "comments": "",
           "comments_html": "",
-          "match_id": 5251
+          "match_id": 9523
         }
       ],
       "variables": null,
@@ -281,15 +281,15 @@
       "matches": [
         {
           "text": "document.getElementByID()",
-          "match_id": 5273
+          "match_id": 2372
         },
         {
           "text": "document.getElementsByClassName()",
-          "match_id": 3746
+          "match_id": 1032
         },
         {
           "text": "document.getElementsByTagName()",
-          "match_id": 5251
+          "match_id": 9523
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -309,10 +309,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\">The DOM is a Tree</a><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\">Video: DOM Selectors</a><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector\">querySelector</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\">The DOM is a Tree</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\">Video: DOM Selectors</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector\">querySelector</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2536,
+          "id": 5562,
           "text": "querySelector",
           "comments": "",
           "comments_html": "",
@@ -341,10 +341,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\">The DOM is a Tree</a><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\">Video: DOM Selectors</a><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById\">getElementById</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\">The DOM is a Tree</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\">Video: DOM Selectors</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById\">getElementById</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9298,
+          "id": 9038,
           "text": "getElementById",
           "comments": "",
           "comments_html": "",
@@ -373,10 +373,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\">The DOM is a Tree</a><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\">Video: DOM Selectors</a><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll\">querySelectorAll</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\">The DOM is a Tree</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\">Video: DOM Selectors</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll\">querySelectorAll</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4193,
+          "id": 1161,
           "text": "querySelectorAll",
           "comments": "",
           "comments_html": "",
@@ -405,10 +405,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\">The DOM is a Tree</a><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\">Video: DOM Selectors</a><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName\">getElementsByTagName</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\">The DOM is a Tree</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\">Video: DOM Selectors</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName\">getElementsByTagName</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5752,
+          "id": 5653,
           "text": "getElementsByTagName",
           "comments": "",
           "comments_html": "",
@@ -437,10 +437,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\">The DOM is a Tree</a><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\">Video: DOM Selectors</a><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName\">getElementsByClassName</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/the-dom-is-a-tree?module_item_id=143596\">The DOM is a Tree</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-dom-selectors?module_item_id=270726\">Video: DOM Selectors</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName\">getElementsByClassName</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4210,
+          "id": 9227,
           "text": "getElementsByClassName",
           "comments": "",
           "comments_html": "",

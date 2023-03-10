@@ -1,6 +1,6 @@
 ---
-id: 12281
-course_id: 3297
+id: 42568
+course_id: 6638
 repo: phase-1-quiz-javascript-and-the-dom
 ---
 

@@ -89,7 +89,7 @@
       "position": null,
       "question_name": "DOM: DevTools",
       "question_type": "short_answer_question",
-      "question_text": "<p>The following code block is a snippet of HTML from Ian's portfolio page:</p>\n<div class=\"highlight\"><pre class=\"highlight html\"><code>id=\"firstHeading\" class=\"firstHeading\"&gt;Hello! id=\"name\" class=\"name\"&gt;My name is\nIan! id=\"welcome\" class=\"welcome\"&gt;Welcome to my portfolio! Lorem ipsum dolor sit\namet, consectetur adipiscing elit. Pellentesque lacinia pretium feugiat.\nPraesent tincidunt non odio sed ultricies. Fusce cursus nisi quis est varius\nimperdiet.\n</code></pre></div>\n<p>If I am viewing this HTML in the browser, what text will be returned if I type\nthe following into the console?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">h1</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">textContent</span><span class=\"p\">;</span>\n</code></pre></div>\n<blockquote>\n<p>Feel free to copy and paste if you need to!</p>\n</blockquote>",
+      "question_text": "<p>The following code block is a snippet of HTML from Ian's portfolio page:</p>\n<div class=\"highlight\"><pre class=\"highlight html\"><code><span class=\"nt\">&lt;h1</span> <span class=\"na\">id=</span><span class=\"s\">\"firstHeading\"</span> <span class=\"na\">class=</span><span class=\"s\">\"firstHeading\"</span><span class=\"nt\">&gt;</span>Hello!<span class=\"nt\">&lt;/h1&gt;</span>\n<span class=\"nt\">&lt;section&gt;</span>\n  <span class=\"nt\">&lt;h1</span> <span class=\"na\">id=</span><span class=\"s\">\"name\"</span> <span class=\"na\">class=</span><span class=\"s\">\"name\"</span><span class=\"nt\">&gt;</span>My name is Ian!<span class=\"nt\">&lt;/h1&gt;</span>\n  <span class=\"nt\">&lt;h1</span> <span class=\"na\">id=</span><span class=\"s\">\"welcome\"</span> <span class=\"na\">class=</span><span class=\"s\">\"welcome\"</span><span class=\"nt\">&gt;</span>Welcome to my portfolio!<span class=\"nt\">&lt;/h1&gt;</span>\n  <span class=\"nt\">&lt;p&gt;</span>\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque\n    lacinia pretium feugiat. Praesent tincidunt non odio sed ultricies. Fusce\n    cursus nisi quis est varius imperdiet.\n  <span class=\"nt\">&lt;/p&gt;</span>\n<span class=\"nt\">&lt;/section&gt;</span>\n</code></pre></div>\n<p>If I am viewing this HTML in the browser, what text will be returned if I type\nthe following into the console?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">h1</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">textContent</span><span class=\"p\">;</span>\n</code></pre></div>\n<blockquote>\n<p>Feel free to copy and paste if you need to!</p>\n</blockquote>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
@@ -106,14 +106,14 @@
           "weight": 100
         },
         {
-          "id": 3014,
+          "id": "3014",
           "text": "'Hello!'",
           "comments": "",
           "comments_html": "<p>Nice! <code>querySelector()</code>returns the <strong>first</strong> element that matches the given\nCSS selector, so in this case that would be the very first <code>&lt;h1&gt;</code> tag! Calling\n<code>.textContent</code> on that element would return the text from that <code>&lt;h1&gt;</code> tag,\nwhich is <code>'Hello!'</code></p>",
           "weight": 100
         },
         {
-          "id": 6964,
+          "id": "6964",
           "text": "\"Hello!\"",
           "comments": "",
           "comments_html": "<p>Nice! <code>querySelector()</code>returns the <strong>first</strong> element that matches the given\nCSS selector, so in this case that would be the very first <code>&lt;h1&gt;</code> tag! Calling\n<code>.textContent</code> on that element would return the text from that <code>&lt;h1&gt;</code> tag,\nwhich is <code>\"Hello!\"</code></p>",
@@ -268,7 +268,7 @@
           "right": "document.getElementById()",
           "comments": "",
           "comments_html": "",
-          "match_id": 3412
+          "match_id": 4014
         },
         {
           "id": "1876",
@@ -277,7 +277,7 @@
           "right": "document.getElementsByClassName()",
           "comments": "",
           "comments_html": "",
-          "match_id": 3823
+          "match_id": 2293
         },
         {
           "id": "1624",
@@ -286,7 +286,7 @@
           "right": "document.getElementsByTagName()",
           "comments": "",
           "comments_html": "",
-          "match_id": 7356
+          "match_id": 7970
         }
       ],
       "variables": null,
@@ -296,15 +296,15 @@
       "matches": [
         {
           "text": "document.getElementById()",
-          "match_id": 3412
+          "match_id": 4014
         },
         {
           "text": "document.getElementsByClassName()",
-          "match_id": 3823
+          "match_id": 2293
         },
         {
           "text": "document.getElementsByTagName()",
-          "match_id": 7356
+          "match_id": 7970
         }
       ],
       "matching_answer_incorrect_matches": ""

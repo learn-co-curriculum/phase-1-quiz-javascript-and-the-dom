@@ -85,39 +85,39 @@
       "id": 366171,
       "quiz_id": 53428,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 1,
+      "assessment_question_id": 632055,
+      "position": null,
       "question_name": "DOM: DevTools",
       "question_type": "short_answer_question",
-      "question_text": "<p>The following code block is a snippet of HTML from Ian's portfolio page:</p>\n<div class=\"highlight\"><pre class=\"highlight html\"><code><span class=\"nt\">&lt;h1</span> <span class=\"na\">id=</span><span class=\"s\">\"firstHeading\"</span> <span class=\"na\">class=</span><span class=\"s\">\"firstHeading\"</span><span class=\"nt\">&gt;</span>Hello!<span class=\"nt\">&lt;/h1&gt;</span>\n<span class=\"nt\">&lt;section&gt;</span>\n  <span class=\"nt\">&lt;h1</span> <span class=\"na\">id=</span><span class=\"s\">\"name\"</span> <span class=\"na\">class=</span><span class=\"s\">\"name\"</span><span class=\"nt\">&gt;</span>My name is Ian!<span class=\"nt\">&lt;/h1&gt;</span>\n  <span class=\"nt\">&lt;h1</span> <span class=\"na\">id=</span><span class=\"s\">\"welcome\"</span> <span class=\"na\">class=</span><span class=\"s\">\"welcome\"</span><span class=\"nt\">&gt;</span>Welcome to my portfolio!<span class=\"nt\">&lt;/h1&gt;</span>\n  <span class=\"nt\">&lt;p&gt;</span>\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque\n    lacinia pretium feugiat. Praesent tincidunt non odio sed ultricies. Fusce\n    cursus nisi quis est varius imperdiet.\n  <span class=\"nt\">&lt;/p&gt;</span>\n<span class=\"nt\">&lt;/section&gt;</span>\n</code></pre></div>\n<p>If I am viewing this HTML in the browser, what text will be returned if I type\nthe following into the console?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">h1</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">textContent</span><span class=\"p\">;</span>\n</code></pre></div>\n<blockquote>\n<p>Feel free to copy and paste if you need to!</p>\n</blockquote>",
+      "question_text": "<p>The following code block is a snippet of HTML from Ian's portfolio page:</p>\n<div class=\"highlight\"><pre class=\"highlight html\"><code>id=\"firstHeading\" class=\"firstHeading\"&gt;Hello!\n\n   id=\"name\" class=\"name\"&gt;My name is Ian!\n   id=\"welcome\" class=\"welcome\"&gt;Welcome to my portfolio!\n\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque\n    lacinia pretium feugiat. Praesent tincidunt non odio sed ultricies. Fusce\n    cursus nisi quis est varius imperdiet.\n</code></pre></div>\n<p>If I am viewing this HTML in the browser, what text will be returned if I type\nthe following into the console?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">h1</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">textContent</span><span class=\"p\">;</span>\n</code></pre></div>\n<blockquote>\n<p>Feel free to copy and paste if you need to!</p>\n</blockquote>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:JavaScript Query Selector MethodsVideo: Changing DOM Elements",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/javascript-query-selector-methods\">JavaScript Query Selector Methods</a></li><li><a href=\"/courses/7550/pages/video-changing-dom-elements\">Video: Changing DOM Elements</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "9919",
           "text": "Hello!",
-          "weight": 100,
-          "comments": "Nice! querySelector()returns the first element that matches the given CSS selector, so in this case that would be the very first h1 tag! Calling .textContent on that element would return the text from that h1 tag, which is Hello!",
-          "id": 9919,
-          "comments_html": "Nice! <code>querySelector()</code>returns the <strong>first</strong> element that matches the given\nCSS selector, so in this case that would be the very first <code>&lt;h1&gt;</code> tag! Calling\n<code>.textContent</code> on that element would return the text from that <code>&lt;h1&gt;</code> tag,\nwhich is <code>Hello!</code>"
+          "comments": "",
+          "comments_html": "<p>Nice! <code>querySelector()</code>returns the <strong>first</strong> element that matches the given CSS\nselector, so in this case that would be the very first <code>tag!\nCalling`.textContent` on that element would return the text from that</code> tag,\nwhich is <code>Hello!</code></p>",
+          "weight": 100
         },
         {
+          "id": "3014",
           "text": "'Hello!'",
-          "weight": 100,
-          "comments": "Nice! querySelector()returns the first element that matches the given CSS selector, so in this case that would be the very first h1 tag! Calling .textContent on that element would return the text from that h1 tag, which is 'Hello!'",
-          "id": 3014,
-          "comments_html": "Nice! <code>querySelector()</code>returns the <strong>first</strong> element that matches the given\nCSS selector, so in this case that would be the very first <code>&lt;h1&gt;</code> tag! Calling\n<code>.textContent</code> on that element would return the text from that <code>&lt;h1&gt;</code> tag,\nwhich is <code>'Hello!'</code>"
+          "comments": "",
+          "comments_html": "<p>Nice! <code>querySelector()</code>returns the <strong>first</strong> element that matches the given CSS\nselector, so in this case that would be the very first <code>tag!\nCalling`.textContent` on that element would return the text from that</code> tag,\nwhich is <code>'Hello!'</code></p>",
+          "weight": 100
         },
         {
+          "id": "6964",
           "text": "\"Hello!\"",
-          "weight": 100,
-          "comments": "Nice! querySelector()returns the first element that matches the given CSS selector, so in this case that would be the very first h1 tag! Calling .textContent on that element would return the text from that h1 tag, which is \"Hello!\"",
-          "id": 6964,
-          "comments_html": "Nice! <code>querySelector()</code>returns the <strong>first</strong> element that matches the given\nCSS selector, so in this case that would be the very first <code>&lt;h1&gt;</code> tag! Calling\n<code>.textContent</code> on that element would return the text from that <code>&lt;h1&gt;</code> tag,\nwhich is <code>\"Hello!\"</code>"
+          "comments": "",
+          "comments_html": "<p>Nice! <code>querySelector()</code>returns the <strong>first</strong> element that matches the given CSS\nselector, so in this case that would be the very first <code>tag!\nCalling`.textContent` on that element would return the text from that</code> tag,\nwhich is <code>\"Hello!\"</code></p>",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -131,30 +131,32 @@
       "id": 366172,
       "quiz_id": 53428,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 2,
+      "assessment_question_id": 632053,
+      "position": null,
       "question_name": "DOM: DevTools",
       "question_type": "short_answer_question",
-      "question_text": "<p>The following code block is a snippet of HTML from Ian's portfolio page:</p>\n<div class=\"highlight\"><pre class=\"highlight html\"><code><span class=\"nt\">&lt;h1</span> <span class=\"na\">id=</span><span class=\"s\">\"firstHeading\"</span> <span class=\"na\">class=</span><span class=\"s\">\"firstHeading\"</span><span class=\"nt\">&gt;</span>Hello!<span class=\"nt\">&lt;/h1&gt;</span>\n<span class=\"nt\">&lt;section&gt;</span>\n  <span class=\"nt\">&lt;h1</span> <span class=\"na\">id=</span><span class=\"s\">\"name\"</span> <span class=\"na\">class=</span><span class=\"s\">\"name\"</span><span class=\"nt\">&gt;</span>My name is Ian!<span class=\"nt\">&lt;/h1&gt;</span>\n  <span class=\"nt\">&lt;h1</span> <span class=\"na\">id=</span><span class=\"s\">\"welcome\"</span> <span class=\"na\">class=</span><span class=\"s\">\"welcome\"</span><span class=\"nt\">&gt;</span>Welcome to my portfolio!<span class=\"nt\">&lt;/h1&gt;</span>\n  <span class=\"nt\">&lt;p&gt;</span>\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque\n    lacinia pretium feugiat. Praesent tincidunt non odio sed ultricies. Fusce\n    cursus nisi quis est varius imperdiet.\n  <span class=\"nt\">&lt;/p&gt;</span>\n<span class=\"nt\">&lt;/section&gt;</span>\n</code></pre></div>\n<p>If I have the <code>h1#firstHeading</code> element saved to a variable like so:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">firstHeading</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#firstHeading</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n</code></pre></div>\n<p>What code would you need to write to delete the <code>h1#firstHeading</code> element?</p>",
+      "question_text": "<p>The following code block is a snippet of HTML from Ian's portfolio page:</p>\n<div class=\"highlight\"><pre class=\"highlight html\"><code>id=\"firstHeading\" class=\"firstHeading\"&gt;Hello!\n\n   id=\"name\" class=\"name\"&gt;My name is Ian!\n   id=\"welcome\" class=\"welcome\"&gt;Welcome to my portfolio!\n\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque\n    lacinia pretium feugiat. Praesent tincidunt non odio sed ultricies. Fusce\n    cursus nisi quis est varius imperdiet.\n</code></pre></div>\n<p>If I have the <code>h1#firstHeading</code> element saved to a variable like so:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">firstHeading</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#firstHeading</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n</code></pre></div>\n<p>What code would you need to write to delete the <code>h1#firstHeading</code> element?</p>",
       "points_possible": 1.0,
       "correct_comments": "Correct! Using either querySelector() or getElementById() would grab that element.",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:Changing the DOM with DevTools and JavaScript",
       "correct_comments_html": "<p>Correct!&nbsp;</p>\n<p>Using either <code>querySelector()</code> or <code>getElementById()</code> would grab that element.</p>",
-      "incorrect_comments_html": null,
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/changing-the-dom-with-devtools-and-javascript?module_item_id=627528\">Changing the DOM with DevTools and JavaScript</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "9892",
           "text": "firstHeading.remove();",
-          "weight": 100,
           "comments": "",
-          "id": 9892
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "9648",
           "text": "firstHeading.remove()",
-          "weight": 100,
           "comments": "",
-          "id": 9648
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -168,32 +170,32 @@
       "id": 366173,
       "quiz_id": 53428,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 3,
+      "assessment_question_id": 632058,
+      "position": null,
       "question_name": "DOM: DevTools",
       "question_type": "true_false_question",
-      "question_text": "When using Chrome DevTools to manipulate the DOM, we are updating and changing\nthe HTML file on the server.",
+      "question_text": "<p>When using Chrome DevTools to manipulate the DOM, we are updating and changing\nthe HTML file on the server.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:DOM Editing Lab",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263236?module_item_id=627527\">DOM Editing Lab</a></li></ul><p></p>",
       "answers": [
         {
+          "comments": "",
+          "comments_html": "",
+          "text": "True",
           "weight": 0,
-          "migration_id": "RESPONSE_4106",
-          "id": 4106,
-          "text": "True"
+          "id": 4106
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_1880",
-          "id": 1880,
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n\n<p>The changes in the DOM do not affect the HTML file on the server.</p>",
           "text": "False",
-          "comments": "Correct! The changes in the DOM do not affect the HTML file on the server.",
-          "comments_html": "<p>Correct!</p>\n\n<p>The changes in the DOM do not affect the HTML file on the server.</p>"
+          "weight": 100,
+          "id": 1880
         }
       ],
       "variables": null,
@@ -207,32 +209,32 @@
       "id": 366174,
       "quiz_id": 53428,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 4,
+      "assessment_question_id": 632054,
+      "position": null,
       "question_name": "DOM: Nodes",
       "question_type": "true_false_question",
-      "question_text": "The Document Object Model (DOM) is represented as a tree of nodes.",
+      "question_text": "<p>The Document Object Model (DOM) is represented as a tree of nodes.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:The DOM is a Tree",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/the-dom-is-a-tree\">The DOM is a Tree</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_3767",
-          "id": 3767,
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
           "text": "True",
-          "comments": "Correct!"
+          "weight": 100,
+          "id": 3767
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_1291",
-          "id": 1291,
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "text": "False",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "weight": 0,
+          "id": 1291
         }
       ],
       "variables": null,
@@ -246,8 +248,8 @@
       "id": 366175,
       "quiz_id": 53428,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 5,
+      "assessment_question_id": 632052,
+      "position": null,
       "question_name": "DOM: Selectors",
       "question_type": "matching_question",
       "question_text": "<p>JavaScript exposes a few different methods on the <code>document</code> object that let us\nfind DOM nodes. When using these methods, we can find elements by different\nattributes, such as ID, class, and tag name.</p>\n\n<p>Order the following methods in terms of most specific to least specific\nattribute:</p>",
@@ -255,30 +257,36 @@
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:The DOM is a Tree",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/the-dom-is-a-tree?module_item_id=627529\">The DOM is a Tree</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "1753",
           "text": "Most Specific:",
-          "id": 1753,
-          "match_id": 8423,
           "left": "Most Specific:",
-          "right": "document.getElementById()"
+          "right": "document.getElementById()",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 1344
         },
         {
+          "id": "1876",
           "text": "Medium Specific:",
-          "id": 1876,
-          "match_id": 8654,
           "left": "Medium Specific:",
-          "right": "document.getElementsByClassName()"
+          "right": "document.getElementsByClassName()",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 1838
         },
         {
+          "id": "1624",
           "text": "Least Specific",
-          "id": 1624,
-          "match_id": 2687,
           "left": "Least Specific",
-          "right": "document.getElementsByTagName()"
+          "right": "document.getElementsByTagName()",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 5943
         }
       ],
       "variables": null,
@@ -287,42 +295,43 @@
       "formula_decimal_places": null,
       "matches": [
         {
-          "match_id": 8423,
-          "text": "document.getElementById()"
+          "text": "document.getElementById()",
+          "match_id": 1344
         },
         {
-          "match_id": 8654,
-          "text": "document.getElementsByClassName()"
+          "text": "document.getElementsByClassName()",
+          "match_id": 1838
         },
         {
-          "match_id": 2687,
-          "text": "document.getElementsByTagName()"
+          "text": "document.getElementsByTagName()",
+          "match_id": 5943
         }
       ],
-      "matching_answer_incorrect_matches": null
+      "matching_answer_incorrect_matches": ""
     },
     {
       "id": 366176,
       "quiz_id": 53428,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 6,
+      "assessment_question_id": 632060,
+      "position": null,
       "question_name": "DOM: Selectors",
       "question_type": "short_answer_question",
-      "question_text": "<p>Which document method takes a <strong>CSS selector</strong> as an argument and returns\nthe <strong>first</strong> element that matches? Fill in the blank:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span> <span class=\"nx\">___________</span> <span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#hello</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n</code></pre></div>",
+      "question_text": "<p>Which document method takes a <strong>CSS selector</strong> as an argument and returns the\n<strong>first</strong> element that matches? Fill in the blank:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span> <span class=\"nx\">___________</span> <span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#hello</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:The DOM is a TreeVideo: DOM SelectorsquerySelector",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/the-dom-is-a-tree?module_item_id=627529\">The DOM is a Tree</a></li><li><a href=\"/courses/7550/pages/video-dom-selectors?module_item_id=627530\">Video: DOM Selectors</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector\">querySelector</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "675",
           "text": "querySelector",
-          "weight": 100,
           "comments": "",
-          "id": 675
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -336,8 +345,8 @@
       "id": 366177,
       "quiz_id": 53428,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 7,
+      "assessment_question_id": 632056,
+      "position": null,
       "question_name": "DOM: Selectors",
       "question_type": "short_answer_question",
       "question_text": "<p>Which document method takes an <strong>ID</strong> as a string and returns the first element\nwith the given ID? Fill in the blank:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span> <span class=\"nx\">___________</span> <span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">hello</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n</code></pre></div>",
@@ -345,15 +354,16 @@
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:The DOM is a TreeVideo: DOM SelectorsgetElementById",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/the-dom-is-a-tree?module_item_id=627529\">The DOM is a Tree</a></li><li><a href=\"/courses/7550/pages/video-dom-selectors?module_item_id=627530\">Video: DOM Selectors</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById\">getElementById</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "1218",
           "text": "getElementById",
-          "weight": 100,
           "comments": "",
-          "id": 1218
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -367,24 +377,25 @@
       "id": 366178,
       "quiz_id": 53428,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 8,
+      "assessment_question_id": 632057,
+      "position": null,
       "question_name": "DOM: Selectors",
       "question_type": "short_answer_question",
-      "question_text": "<p>Which document method takes a <strong>CSS selector</strong> as an argument and returns\n<strong>all</strong> elements that match? Fill in the blank:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">___________</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">.hello</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n</code></pre></div>",
+      "question_text": "<p>Which document method takes a <strong>CSS selector</strong> as an argument and returns <strong>all</strong>\nelements that match? Fill in the blank:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span> <span class=\"nx\">___________</span> <span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">.hello</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:The DOM is a TreeVideo: DOM SelectorsquerySelectorAll",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/the-dom-is-a-tree?module_item_id=627529\">The DOM is a Tree</a></li><li><a href=\"/courses/7550/pages/video-dom-selectors?module_item_id=627530\">Video: DOM Selectors</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll\">querySelectorAll</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "9045",
           "text": "querySelectorAll",
-          "weight": 100,
           "comments": "",
-          "id": 9045
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -398,8 +409,8 @@
       "id": 366179,
       "quiz_id": 53428,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 9,
+      "assessment_question_id": 632051,
+      "position": null,
       "question_name": "DOM: Selectors",
       "question_type": "short_answer_question",
       "question_text": "<p>Which document method takes a <strong>tag name</strong> as a string and returns an HTML\ncollection with the specified tag name? Fill in the blank:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span> <span class=\"nx\">___________</span> <span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">li</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n</code></pre></div>",
@@ -407,15 +418,16 @@
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:The DOM is a TreeVideo: DOM SelectorsgetElementsByTagName",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/the-dom-is-a-tree?module_item_id=627529\">The DOM is a Tree</a></li><li><a href=\"/courses/7550/pages/video-dom-selectors?module_item_id=627530\">Video: DOM Selectors</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName\">getElementsByTagName</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "4368",
           "text": "getElementsByTagName",
-          "weight": 100,
           "comments": "",
-          "id": 4368
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -429,8 +441,8 @@
       "id": 366180,
       "quiz_id": 53428,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 10,
+      "assessment_question_id": 632059,
+      "position": null,
       "question_name": "DOM: Selectors",
       "question_type": "short_answer_question",
       "question_text": "<p>Which document method takes a <strong>class name</strong> as a string and returns all the\nelements with the specified class name? Fill in the blank:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span> <span class=\"nx\">___________</span> <span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">heading</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n</code></pre></div>",
@@ -438,15 +450,16 @@
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:The DOM is a TreeVideo: DOM SelectorsgetElementsByClassName",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/the-dom-is-a-tree?module_item_id=627529\">The DOM is a Tree</a></li><li><a href=\"/courses/7550/pages/video-dom-selectors?module_item_id=627530\">Video: DOM Selectors</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName\">getElementsByClassName</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "181",
           "text": "getElementsByClassName",
-          "weight": 100,
           "comments": "",
-          "id": 181
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
